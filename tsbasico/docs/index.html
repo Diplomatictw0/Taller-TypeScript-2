@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seriepolis</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .title-container {
+            background-color: #89CFF0;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 80px; 
+            margin-right: 20px;
+        }
+
+        .title {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        #seriesTable {
+            width: 100%;
+            text-align: center;
+        }
+
+        .container {
+            padding: 0;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .data-row {
+            background-color: #E0FFFF;
+            color: #000080;
+            font-weight: bold;
+        }
+
+        .name {
+            color: #000080;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 0;
+                margin: 0 auto;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="title-container">
+        <img class="logo" src="imagenes/serie.jpeg" alt="Seriepolis">
+        <h1 class="title">Seriepolis</h1>
+    </div>
+
+    <div class="container">
+        <table id="seriesTable" class="table">
+            <thead>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
